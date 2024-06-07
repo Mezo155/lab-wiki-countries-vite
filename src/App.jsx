@@ -12,7 +12,7 @@ function App() {
       <h1>LAB | React WikiCountries</h1>
       <Routes>
         <Route path="/" element={<HomePage></HomePage>}></Route>
-        <Route path= "/countryId" element={<CountryDetails></CountryDetails>}></Route>
+        <Route path= "/:countryId" element={<CountryDetails></CountryDetails>}></Route>
       </Routes>
       
     </div>
